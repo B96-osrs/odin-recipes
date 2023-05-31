@@ -1,6 +1,12 @@
 /* style */
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
-    background-color: rgb(250, 221, 184,25%);
+    background-color: rgba(179, 236, 105, 0.25);
 }
 h1 {
   font-family:serif;
@@ -14,13 +20,15 @@ h1 {
 
 h3 {
     color: rgb(54, 39, 68);
+    
+    
 }
 
 p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.recipeText {
+.recipe-text {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(3, 63, 28);
@@ -29,6 +37,7 @@ p {
     text-align: center;
     margin: 4px auto;
     border-radius: 4px;
+    list-style-type: none;
 }
 
 a {
@@ -36,6 +45,31 @@ a {
     color: aliceblue;
 }
 
-ul {
-    list-style-type: none;
+.recipe-img {
+    width: 500px;
+    height: auto;
+    margin: 8px auto;
+    display: block;
+    border-radius: 8px;
+
 }
+
+.recipe-box {
+    background-color: rgb(142, 202, 130);
+    border-radius: 8px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 8px;
+    
+}
+
+.recipe-box2 {
+    background-color: rgb(160, 202, 151);
+    border-radius: 8px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 18px;
+}
+
+
+
